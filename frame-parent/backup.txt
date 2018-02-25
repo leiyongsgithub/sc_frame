@@ -1,0 +1,5 @@
+1:
+	maven 多模块项目  父工程必须为pom
+2:
+	import scope只能用在dependencyManagement里面，这是解决maven只有单继承的问题。
+	这里继承了 spring-boot-dependencies 引入了 spring-cloud-dependencies
