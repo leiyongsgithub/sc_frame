@@ -41,5 +41,6 @@
   <modules>
     <module>frame-eureka</module>
     <module>frame-service</module>
+    <module>frame-gateway</module>
   </modules>
 </project>
