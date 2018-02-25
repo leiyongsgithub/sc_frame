@@ -1,0 +1,21 @@
+server:
+  port: 8001
+spring:
+  application:
+    name: frame-eureka
+instance:
+  ip: localhost
+eureka:
+  numberRegistrySyncRetries: 0
+  client:
+    service-url:
+      defaultZone: http://localhost:8001/eureka/
+    healthcheck:
+      enabled: true
+    registerWithEureka: false
+    fetchRegistry: false
+  instance:
+    prefer-ip-address: true
+    instance-id: ${spring.cloud.client.ipAddress}/${spring.application.name}
+  server:
+    enable-self-preservation: false

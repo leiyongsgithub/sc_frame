@@ -39,7 +39,7 @@
   </dependencyManagement>
     
   <modules>
-    <module>frame-web</module>
-    <module>frame-config</module>
+    <module>frame-eureka</module>
+    <module>frame-service</module>
   </modules>
 </project>
