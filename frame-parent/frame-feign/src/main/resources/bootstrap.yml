@@ -5,6 +5,8 @@ server:
 spring:
   application:
     name: frame-feign
+  profiles:
+    active: auth
 eureka:
   client:
     service-url:
