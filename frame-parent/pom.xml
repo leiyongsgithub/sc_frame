@@ -49,5 +49,6 @@
     <module>frame-eureka</module>
     <module>frame-service</module>
     <module>frame-gateway</module>
+    <module>frame-feign</module>
   </modules>
 </project>

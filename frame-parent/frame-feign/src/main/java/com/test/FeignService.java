@@ -6,8 +6,9 @@ import org.springframework.cloud.netflix.feign.EnableFeignClients;
 
 @SpringBootApplication
 @EnableFeignClients
-public class FrameService {
-	 public static void main(String[] args) {
-	        SpringApplication.run(FrameService.class, args);
-	    }
+public class FeignService {
+	
+	public static void main(String[] args) {
+		SpringApplication.run(FeignService.class, args);
+	}
 }
